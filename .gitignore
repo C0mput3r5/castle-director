@@ -1,0 +1,16 @@
+# Rust / Cargo build artifacts
+/target
+**/*.rs.bk
+
+# Exported 3D printable STL dioramas
+*.stl
+
+# OS & Editor temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

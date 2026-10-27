@@ -1,0 +1,16 @@
+[package]
+name = "castle-director"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.15", features = ["dynamic_linking"] }
+rand = "0.8"
+
+# Enable a small amount of optimization in the dev profile for fast iteration & good FPS.
+[profile.dev]
+opt-level = 1
+
+# Enable high optimization for dependencies (including Bevy) so the 3D engine runs at full speed.
+[profile.dev.package."*"]
+opt-level = 3
