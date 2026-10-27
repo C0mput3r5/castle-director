@@ -66,3 +66,4 @@ cargo test
 ## Project Architecture & Governance
 - **[AGENTS.md](./AGENTS.md):** Core game philosophy, strict modularity rules (`< 350` lines per `.rs` file), and watertight `ExteriorShell` 3D-printing standards.
 - **[BACKLOG.md](./BACKLOG.md):** Live development checklist and completed milestones.
+

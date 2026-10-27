@@ -1,5 +1,7 @@
-# Rust / Cargo build artifacts
+# Rust / Cargo build artifacts & machine-local SDK cache
 /target
+/.xwin-cache
+/.cargo
 **/*.rs.bk
 
 # Exported 3D printable STL dioramas
