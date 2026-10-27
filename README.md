@@ -27,7 +27,7 @@ winget install Rustlang.Rustup
 
 ### 2. Clone & Run
 ```bash
-git clone <YOUR_REPO_URL>
+git clone https://github.com/C0mput3r5/castle-director.git
 cd castle-director
 cargo run
 ```
